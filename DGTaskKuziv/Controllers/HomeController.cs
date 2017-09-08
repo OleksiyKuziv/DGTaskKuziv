@@ -14,7 +14,6 @@ namespace DGTaskKuziv.Controllers
 {
     public class HomeController : Controller
     {
-        public static List<AnimalViewModel> modelList = new List<AnimalViewModel>();
         public static List<AverageViewModel> modelAverageList = new List<AverageViewModel>();
         public  ActionResult Index()
         {

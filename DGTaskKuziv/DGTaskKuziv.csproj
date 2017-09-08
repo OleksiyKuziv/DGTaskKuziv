@@ -152,7 +152,6 @@
     <Compile Include="Models\Session.cs" />
     <Compile Include="Models\Task.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModel\AnimalViewModel.cs" />
     <Compile Include="ViewModel\AverageViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
