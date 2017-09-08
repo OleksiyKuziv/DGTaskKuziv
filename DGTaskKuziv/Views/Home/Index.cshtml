@@ -1,0 +1,22 @@
+﻿@model IEnumerable<DGTaskKuziv.ViewModel.AverageViewModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+<link href="~/Content/kendo/styles/kendo.common.min.css" rel="stylesheet" />
+<link href="~/Content/kendo/styles/kendo.rtl.min.css" rel="stylesheet" />
+<link href="~/Content/kendo/styles/kendo.silver.min.css" rel="stylesheet" />
+<link href="~/Content/kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
+@section scripts{
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/kendo/js/kendo.all.min.js"></script>
+<script src="~/Scripts/controllers/home.js"></script>
+    }
+
+<form id="dateDiagram">
+    <select id="multiselect"  multiple="multiple">       
+    </select>
+    <input type="submit" value="Show"/>
+</form>
+<div id="chart">
+
+</div>
